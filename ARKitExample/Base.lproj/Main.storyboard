@@ -23,7 +23,7 @@
                             <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QBB-qo-KCt">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </arscnView>
-                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AcT-Ke-uxH" userLabel="Left Buttons View">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AcT-Ke-uxH" userLabel="Left Buttons View">
                                 <rect key="frame" x="0.0" y="487" width="180" height="180"/>
                                 <subviews>
                                     <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow_left" translatesAutoresizingMaskIntoConstraints="NO" id="IXY-Qk-jzG">
@@ -80,7 +80,7 @@
                                     <constraint firstAttribute="bottom" secondItem="bx2-fe-W7P" secondAttribute="bottom" id="zlu-wE-WPD"/>
                                 </constraints>
                             </view>
-                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Huz-8V-WtG" userLabel="Right Buttons View">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Huz-8V-WtG" userLabel="Right Buttons View">
                                 <rect key="frame" x="195" y="487" width="180" height="180"/>
                                 <subviews>
                                     <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow_left" translatesAutoresizingMaskIntoConstraints="NO" id="IVa-OL-0kA">
